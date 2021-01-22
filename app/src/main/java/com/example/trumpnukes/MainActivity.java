@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences myScore = this.getSharedPreferences("MyScore", Context.MODE_PRIVATE);
         score = myScore.getInt("Score" ,0);
 
-
         text.setText("Nukes:  " + score);
 
 
